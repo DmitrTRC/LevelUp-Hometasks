@@ -86,7 +86,7 @@ Contains the following:
 * LevelUp.CSharp.Hometasks.sln: Visual Studio solution file
 * Lesson 2 : Lesson 2 tasks
 * README.md : project description
-* LICENSE.md : project license
+* LICENSE.txt : project license
 * .gitignore : git ignore file
 * .github : GitHub repository settings CI/CD workflow.
 
@@ -229,7 +229,7 @@ Project Link: [https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git](https://gi
 
 [license-shield]: https://img.shields.io/github/license/DmitrTRC/LevelUP-CSharp-Junior?style=for-the-badge
 
-[license-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/LICENSE
+[license-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/LICENSE.txt
 
 [product-screenshot]: Images/levelup-logo.png
 
