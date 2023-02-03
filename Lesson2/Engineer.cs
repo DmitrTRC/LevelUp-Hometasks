@@ -2,7 +2,7 @@ namespace Lesson2;
 
 public record Engineer()
 {
-    public string Name { get; init; }
+    public string Name { get; init; } = "Unknown";
     public string? Surname { get; set; }
     public int Age { get; set; }
     public string? Company { get; set; }
