@@ -16,7 +16,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![CMake][status-shield]][status-url]
+
+[//]: # ([![CMake][status-shield]][status-url])
 
 
 
