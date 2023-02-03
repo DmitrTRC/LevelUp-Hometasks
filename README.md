@@ -229,7 +229,7 @@ Project Link: [https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git](https://gi
 
 [license-shield]: https://img.shields.io/github/license/DmitrTRC/LevelUP-CSharp-Junior?style=for-the-badge
 
-[license-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/LICENSE.txt
+[license-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/LICENSE
 
 [product-screenshot]: Images/levelup-logo.png
 
