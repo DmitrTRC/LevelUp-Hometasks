@@ -23,23 +23,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/DmitrTRC/LevelUP_C_PartI.git">
+  <a href="https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git">
     <img src="Images/logo.png" alt="Logo" width="128" height="128">
   </a>
 
-<h3 align="center">LevelUP C/C++ Course Part I</h3>
+<h3 align="center">LevelUP C# Course Junior</h3>
 
   <p align="center">
     About the project:
     <br />
-    <a href="https://github.com/DmitrTRC/LevelUP_C_PartI.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DmitrTRC/LevelUP_C_PartI.git">View Demo</a>
+    <a href="https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git">View Demo</a>
     ·
-    <a href="https://github.com/DmitrTRC/LevelUP_C_PartI.git/issues">Report Bug</a>
+    <a href="https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/DmitrTRC/LevelUP_C_PartI.git/issues">Request Feature</a>
+    <a href="https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,20 +82,20 @@ This is a project for the [LevelUP](https://levelp.ru/courses/programmirovanie/f
 course.
 Contains the following:
 
-* CMakeLists.txt : CMake configuration file
+* LevelUp.CSharp.Hometasks.sln: Visual Studio solution file
+* Lesson 2 : Lesson 2 tasks
 * README.md : project description
 * LICENSE.md : project license
-* src/ : source code directory  ( contains sub-folders with HW and code )
-* doc/ : documentation directory ( contains sub-folders with documentation )
+* .gitignore : git ignore file
 * .github : GitHub repository settings CI/CD workflow.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* [Clang](https://clang.llvm.org/)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [Git](https://git-scm.com/)
-* [CMake](https://cmake.org/)
+* [Rider](https://www.jetbrains.com/rider/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,41 +107,25 @@ Contains the following:
 
 Be sure to have the following installed:
 
-C Compiler, C++ Compiler, CMake, Git.
+.NET 6.0 , C# 10 , Git
 
 ### Prerequisites
 
-* Clang, GCC, or another C compiler
+* C# 10 Compiler
 * Git
-* CMake
+* .NET 6.0 Installed
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/DmitrTRC/LevelUP_C_PartI.git
+   git clone https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git
    ```
+2. Open the project in your IDE
+3. Build the project
+4. Run the project
 
-1.a. Change CMakeLists.txt add_executable(....) corresponding to Task name
 
-   ```sh
-   cd LevelUP_C_PartI
-   vim CMakeLists.txt
-   ```
-
-2. Create a build directory
-   ```sh
-   mkdir build
-   ```
-3. Run CMake
-   ```sh
-   cmake -H. -Bbuild
-   ```
-4. Build the project
-   ```sh
-   cd build
-   make
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,7 +139,7 @@ Used in the educational process
 Select the task you want to solve and rebuild the project.
 
 _For more examples, please refer to
-the [Documentation](https://github.com/DmitrTRC/LevelUP_C_PartI/blob/master/Docs/QuickManual.MD)_
+the [Documentation](https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/Docs/QuickManual.MD)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -170,7 +154,7 @@ the [Documentation](https://github.com/DmitrTRC/LevelUP_C_PartI/blob/master/Docs
     - [ ] Github Actions
     - [ ] Docker
 
-See the [open issues](https://github.com/DmitrTRC/LevelUP_C_PartI/issues) for a full list of proposed features (and
+See the [open issues](https://github.com/DmitrTRC/LevelUP-CSharp-Junior/issues) for a full list of proposed features (and
 known issues)
 .
 
@@ -214,7 +198,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [DmitrTRC](https://twitter.com/twitter_handle) - morozovd@me.com, 9984398@gmail.com
 
-Project Link: [https://github.com/DmitrTRC/LevelUP_C_PartI.git](https://github.com/DmitrTRC/ARS_CW.git)
+Project Link: [https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git](https://github.com/DmitrTRC/LevelUP-CSharp-Junior.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -226,28 +210,28 @@ Project Link: [https://github.com/DmitrTRC/LevelUP_C_PartI.git](https://github.c
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/DmitrTRC/LevelUP_C_PartI.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/DmitrTRC/LevelUP-CSharp-Junior.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/DmitrTRC/LevelUP_C_PartI/graphs/contributors
+[contributors-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/DmitrTRC/LevelUP_C_PartI?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/DmitrTRC/LevelUP-CSharp-Junior?style=for-the-badge
 
-[forks-url]: https://github.com/github_username/LevelUP_C_PartI/network/members
+[forks-url]: https://github.com/github_username/LevelUP-CSharp-Junior/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/DmitrTRC/LevelUP_C_PartI.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/DmitrTRC/LevelUP-CSharp-Junior.svg?style=for-the-badge
 
-[stars-url]: https://github.com/DmitrTRC/LevelUP_C_PartI/stargazers
+[stars-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/DmitrTRC/LevelUP_C_PartI?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/DmitrTRC/LevelUP-CSharp-Junior?style=for-the-badge
 
-[issues-url]: https://github.com/DmitrTRC/LevelUP_C_PartI/issues
+[issues-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/issues
 
-[license-shield]: https://img.shields.io/github/license/DmitrTRC/LevelUP_C_PartI?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/DmitrTRC/LevelUP-CSharp-Junior?style=for-the-badge
 
-[license-url]: https://github.com/DmitrTRC/LevelUP_C_PartI/blob/master/LICENSE
+[license-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/blob/master/LICENSE
 
 [product-screenshot]: Images/levelup-logo.png
 
-[status-url]: https://github.com/DmitrTRC/LevelUP_C_PartI/actions/workflows/cmake.yml/badge.svghttps://github.com/DmitrTRC/LevelUP_C_PartI/actions/workflows/CMake
+[status-url]: https://github.com/DmitrTRC/LevelUP-CSharp-Junior/actions/workflows/cmake.yml/badge.svghttps://github.com/DmitrTRC/LevelUP_C_PartI/actions/workflows/CMake
 
 [status-shield]: https://img.shields.io/github/workflow/status/DmitrTRC/LevelUP_C_PartI/CMake?style=for-the-badge
