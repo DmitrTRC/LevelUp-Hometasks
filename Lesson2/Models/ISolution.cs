@@ -1,8 +1,6 @@
-namespace Lesson2;
+namespace Lesson2.Models;
 
 public interface ISolution
 {
-    // Run method
-
     void Run();
 }

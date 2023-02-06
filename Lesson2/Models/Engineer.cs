@@ -1,4 +1,4 @@
-namespace Lesson2;
+namespace Lesson2.Models;
 
 public record Engineer()
 {

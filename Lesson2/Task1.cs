@@ -1,3 +1,5 @@
+using Lesson2.Models;
+
 namespace Lesson2;
 
 public class Task1 : ISolution

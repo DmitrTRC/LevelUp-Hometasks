@@ -1,10 +1,10 @@
-namespace Lesson2;
+namespace Lesson2.Models;
 
 
 public class Store
 {
-    public string Name { get; init; }
-    public string Address { get; init; }
+    private string Name { get; init; }
+    private string Address { get; init; }
 
     public Store(string name, string address)
     {

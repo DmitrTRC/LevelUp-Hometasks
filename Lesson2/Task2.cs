@@ -1,5 +1,7 @@
 namespace Lesson2;
 
+using Models;
+
 public class Task2 : ISolution
 {
     class User
