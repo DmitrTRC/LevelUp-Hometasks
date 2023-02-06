@@ -10,10 +10,10 @@ public class User
         Hobby = hobby;
     }
 
-    string Name { get; init; }
-    string Surname { get; set; }
-    int Age { get; set; }
-    string Hobby { get; set; }
+    public string Name { get; init; }
+    public string Surname { get; set; }
+    public int Age { get; set; }
+    public string Hobby { get; set; }
 
 
     public void PrintInfo()
