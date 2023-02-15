@@ -1,8 +1,8 @@
 namespace Lesson3.Models;
 
-public class Equipment : StoreItem
+public class Equipment : ShopStoreItem
 {
-    public string Brand { get; set; } = "Unknown";
     public string Model { get; set; } = "Unknown";
-   
+    public string Type { get; set; } = "Unknown"; //TODO: Move to Interface
+    
 }

@@ -1,4 +1,4 @@
-namespace Lesson3.Models;
+namespace Lesson3.Models.FoodDepartment;
 
 public class Snack : Food, IHasShelfLife
 {
