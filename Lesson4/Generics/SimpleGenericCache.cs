@@ -16,12 +16,11 @@ internal class SimpleGenericCache<T>
 
     internal T? Fetch(string key) // Return default if not found
     {
-        if (_cache.TryGetValue(key, out var cachedValue))
+        if (!_cache.TryGetValue(key, out var cachedValue)) return default;
+
+        if (cachedValue != null && cachedValue.CreationTime.AddSeconds(cachedValue.Timeout) > DateTime.Now)
         {
-            if (cachedValue != null && cachedValue.CreationTime.AddSeconds(cachedValue.Timeout) > DateTime.Now)
-            {
-                return cachedValue.Value;
-            }
+            return cachedValue.Value;
         }
 
         return default;

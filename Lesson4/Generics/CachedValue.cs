@@ -1,9 +1,8 @@
 namespace Lesson4.Generics;
 
-public record CachedValue<T>()
+public record CachedValue<T>
 {
-    public T Value { get; set; }
-    public DateTime CreationTime { get; set; }
-    public int Timeout { get; set; }
-    
+    public T? Value { get; init; }
+    public DateTime CreationTime { get; init; }
+    public int Timeout { get; init; }
 }
