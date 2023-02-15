@@ -25,8 +25,4 @@
       <ProjectReference Include="..\Lesson2\Lesson2.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Lesson3" />
-    </ItemGroup>
-
 </Project>
