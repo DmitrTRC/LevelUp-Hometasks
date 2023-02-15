@@ -18,7 +18,7 @@ internal class SimpleGenericCache<T>
     {
         if (_cache.TryGetValue(key, out var cachedValue))
         {
-            if (cachedValue.CreationTime.AddSeconds(cachedValue.Timeout) > DateTime.Now)
+            if (cachedValue != null && cachedValue.CreationTime.AddSeconds(cachedValue.Timeout) > DateTime.Now)
             {
                 return cachedValue.Value;
             }
