@@ -6,13 +6,12 @@ public static class StringExtensions
 {
     public static string Clear(this string str)
     {
-        List<char> delimiterChars = new List<char> {' ', '\t', '\n'};
-        //Delete all non-alphanumeric characters new lines , tabs ,  whitespace
-        Regex rgx = new Regex("[^a-zA-Z0-9 -]");
+        char[] delimiterChars = {' ', '\t', '\n'};
 
-        var newStr = rgx.Replace(str, "")
+        var resultArray = new Regex("[^a-zA-Z0-9 -]")
+            .Replace(str, "")
             .Split(delimiterChars.ToArray(), StringSplitOptions.RemoveEmptyEntries);
 
-        return string.Join(" ", newStr);
+        return string.Join(" ", resultArray);
     }
 }
