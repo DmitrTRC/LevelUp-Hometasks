@@ -1,3 +1,5 @@
+using Lesson3.Models.Interface;
+
 namespace Lesson3.Models;
 
 public class ShopStoreItem : StoreItem, IQuantity, IStateStock, IHasDiscount
