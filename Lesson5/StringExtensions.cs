@@ -18,7 +18,7 @@ public static class StringExtensions
 
         var resultArray = new Regex("[^a-zA-Z0-9 -]")
             .Replace(str, "")
-            .Split(delimiterChars.ToArray(), StringSplitOptions.RemoveEmptyEntries);
+            .Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries);
 
         return string.Join(" ", resultArray);
     }
