@@ -1,3 +1,5 @@
+using Lesson3.Models.Interface;
+
 namespace Lesson3.Models.WearDepartment;
 
 public class T_Shirts : Wear, IHasGender
