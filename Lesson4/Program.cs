@@ -1,4 +1,3 @@
-﻿// Cache using example
 
 using Lesson4.Generics;
 
