@@ -1,3 +1,5 @@
+using Lesson3.Models.Interface;
+
 namespace Lesson3.Models.EquipmentDepartment;
 
 public class Cardio : Equipment, IHasGrade

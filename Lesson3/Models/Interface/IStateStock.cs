@@ -1,4 +1,4 @@
-namespace Lesson3.Models;
+namespace Lesson3.Models.Interface;
 
 public enum State
 {
