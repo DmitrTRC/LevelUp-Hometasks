@@ -2,16 +2,14 @@ using System.Text.RegularExpressions;
 
 namespace Lesson5;
 
-/**
- * This class contains extension methods for the string class.
- */
+/// <summary>
+///  This class contains extension methods for the string class.
+/// </summary>
 public static class StringExtensions
 {
-    /**
-    * @brief This method removes all non-alphanumeric characters from a string and strips from both sides.
-    * @param str The string to be cleared.
-    * @return The cleared string.
-    */
+    /// <summary>  This method removes all non-alphanumeric characters from a string and strips from both sides. </summary>
+    /// <param name="str"> The string to be cleared. </param> 
+    /// <returns> The cleared string. </returns>
     public static string Clear(this string str)
     {
         char[] delimiterChars = {' ', '\t', '\n'};
