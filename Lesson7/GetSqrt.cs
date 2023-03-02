@@ -7,8 +7,7 @@ public class GetSqrt
     //CONSTRUCTOR FROM M , N
     public GetSqrt(int m, int n)
     {
-        this.M = m;
-        this.N = n;
+       
     }
     
     
