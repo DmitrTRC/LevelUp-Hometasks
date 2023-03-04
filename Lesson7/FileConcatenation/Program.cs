@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("FileConcatenation");
+﻿Console.WriteLine("FileConcatenation");
 
 static async void FileConcat(string path)
 {
@@ -9,12 +8,12 @@ static async void FileConcat(string path)
         return;
     }
 
-    string[] files = Directory.GetFiles(path, "*.txt");
-
     if (File.Exists("result.txt"))
     {
         File.Delete("result.txt");
     }
+
+    string[] files = Directory.GetFiles(path, "*.txt");
 
     await using StreamWriter sw = File.CreateText("result.txt");
 
