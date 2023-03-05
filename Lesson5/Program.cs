@@ -1,3 +1,8 @@
-﻿
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Lesson5!");
+
+﻿using Lesson5;
+
+
+string testString = " \tTh%^is $is &* \n a test string 123 ";
+
+Console.WriteLine(testString.Clear());
+
