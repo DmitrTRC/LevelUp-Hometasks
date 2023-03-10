@@ -22,7 +22,7 @@ static async Task FileConcat(string path) {
 
     foreach (string file in files)
     {
-        Console.WriteLine($"Writing {file} to {path}/OUT/result.txt");
+        Console.WriteLine($"Writing {file} to {path}/result.bak");
         using StreamReader sr = File.OpenText(file);
 
         while (await sr.ReadLineAsync() is { } s)
