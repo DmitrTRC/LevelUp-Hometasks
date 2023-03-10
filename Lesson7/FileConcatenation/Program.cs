@@ -9,15 +9,15 @@ static async Task FileConcat(string path) {
         return;
     }
 
-    var outPath = path + "/OUT/Result.bak";
+    var outPath = path + "/Result.bak";
 
     if (File.Exists(outPath))
     {
         File.Delete(outPath);
     }
-    
-    string [] files = Directory.GetFiles(path, "*.txt").OrderBy(f => f).ToArray();
-    
+
+    string[] files = Directory.GetFiles(path, "*.txt").OrderBy(f => f).ToArray();
+
     await using StreamWriter sw = File.CreateText(outPath);
 
     foreach (string file in files)
