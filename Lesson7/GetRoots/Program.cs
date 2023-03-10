@@ -6,7 +6,7 @@ void PrintRootsRange(int min, int max) {
     // Check min and max values
     if (min < 0 || max < 0)
     {
-        System.Console.WriteLine("Invalid range.");
+        Console.WriteLine("Invalid range.");
         return;
     }
 
@@ -17,7 +17,7 @@ void PrintRootsRange(int min, int max) {
 
     foreach (var root in roots)
     {
-        System.Console.WriteLine($"{root.Key} : {root.Value}");
+        Console.WriteLine($"{root.Key} : {root.Value}");
     }
 }
 
