@@ -25,9 +25,7 @@ static async Task FileConcat(string path) {
         Console.WriteLine($"Writing {file} to {path}/OUT/result.txt");
         using StreamReader sr = File.OpenText(file);
 
-        string? s = "";
-
-        while ((s = await sr.ReadLineAsync()) != null)
+        while (await sr.ReadLineAsync() is { } s)
         {
             await sw.WriteLineAsync(s);
         }
