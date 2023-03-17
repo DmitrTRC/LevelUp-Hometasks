@@ -1,0 +1,3 @@
+[submodule "CourseDoc/csharp_juniors_tasks"]
+	path = CourseDoc/csharp_juniors_tasks
+	url = https://github.com/IT-Level-UP/csharp_juniors_tasks.git
